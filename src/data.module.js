@@ -1,9 +1,5 @@
-/**
- * Created by thienbui on 03-Oct-16.
- */
-(function () {
-    'use strict';
+(function(){
+  'use strict';
 
-    angular.module('data', []);
-
+  angular.module('data',[]);
 })();

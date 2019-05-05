@@ -1,16 +1,11 @@
-/**
- * Created by thienbui on 03-Oct-16.
- */
-(function () {
-    'use strict';
+(function(){
+  'use strict';
 
-    angular.module('MenuApp')
-        .controller('ItemsController', ItemsController);
+  angular.module('MenuApp')
+        .controller('ItemsController',ItemsController);
 
-
-    ItemsController.$inject = ['items'];
-    function ItemsController(items) {
-        this.items = items;
-    }
-
+  ItemsController.$inject = ['items'];
+  function ItemsController(items){
+    this.items = items;
+  }
 })();
